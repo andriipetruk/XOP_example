@@ -1,0 +1,27 @@
+MIME-Version: 1.0
+Content-Type: Multipart/Related; boundary=MIME_boundary;
+type="application/soap+xml"; start="<asstets@wix.com>"
+--MIME_boundary
+Content-Type: application/soap+xml; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Content-ID: <asstets@wix.com>
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+xmlns:xop='http://www.w3.org/2004/08/xop/include'
+xmlns:xop-mime='http://www.w3.org/2005/05/xmlmime'>
+<soap:Body>
+<submitClaim>
+<licenseNumber>5XJ45-3B2</licenseNumber>
+<eventType>accuring</eventType>
+<image xop-mime:content-type='application/pkix-cert'><xop:Include
+href="cid:asstets@wix.com"/></image>
+</submitClaim>
+</soap:Body>
+</soap:Envelope>
+
+--MIME_boundary
+Content-Type: application/pkix-cert'
+Content-Transfer-Encoding: binary
+Content-ID: <asstets@wix.com>
+License key attach
+--MIME_boundary--
